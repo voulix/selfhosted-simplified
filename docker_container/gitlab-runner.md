@@ -53,7 +53,7 @@ token: glrt-123456ABCDEF7G
 executer: docker
 ```
 ```yml
-default docker image: **docker:dind** (docker in docker)
+default docker image: docker:dind (docker in docker)
 ```
 
 after that add
