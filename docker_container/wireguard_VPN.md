@@ -13,9 +13,9 @@ changes the folder owner to a specific user (don't use root:root)
 > cd /opt/wireguard-server
 
 changes the folder to /opt/wireguard-server
-
+```yml
 nano docker-compose.yaml
-
+```
 >creates a new file called docker-compose.yaml
 
 ```yml
