@@ -1,3 +1,5 @@
+>[wg-easy](https://github.com/WeeJeWel/wg-easy)
+_________________________________________________________
 ```yml
 cd /opt
 ```
