@@ -90,9 +90,9 @@ MAXDBDAYS=7
 
 >to reduce db days saved  7=days
 
-save&restart the container
+save & restart the container
 
-_________________________________________________________
+# troubleshooting
 
 >if you cannot start the container because smth else is using the DNS port (53)
 
