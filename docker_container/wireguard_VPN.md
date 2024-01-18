@@ -54,9 +54,10 @@ services:
     restart: always
 ```
 
-> docker compose up -d
-#creates the docker container from the file we have just created **docker-compose.yaml**
-
-> copy config peers to VPN client that uses wireguard
+```yml
+docker compose up -d
+```
+>creates the docker container from the file we have just created **docker-compose.yaml**
+>copy config peers to VPN client that uses wireguard
 
 Done! ヘ( ^o^)ノ＼(^_^ )
