@@ -11,7 +11,7 @@ cd /opt
 sudo mkdir it-tools
 ```
 
->creates a folder called pihole
+>creates a folder called it-tools
 
 ```yml
 sudo chown youruser:youruser /opt/it-tools/
@@ -23,7 +23,7 @@ sudo chown youruser:youruser /opt/it-tools/
 cd /opt/it-tools/
 ```
 
->changes the folder to /opt/pihole/
+>changes the folder to /opt/it-tools/
 
 ```yml
 nano docker-compose.yaml

@@ -16,7 +16,7 @@ sudo chown youruser:youruser /opt/wireguard-server
 >changes the folder owner to a specific user (don't use root:root)
 
 ```yml
-> cd /opt/wireguard-server
+cd /opt/wireguard-server
 ```
 
 >changes the folder to /opt/wireguard-server
