@@ -59,4 +59,12 @@ services:
 #    external: true
 ```
 
+```yml
+sudo docker compose up -d
+```
+
+>creates the docker container from the file we have just created **docker-compose.yaml**
+
+Paste the following in a browser of you choice: http://0.0.0.0:8080 (replace 0.0.0.0 with the ip of the system running it-tools)
+
 Done! ヘ( ^o^)ノ＼(^_^ )
