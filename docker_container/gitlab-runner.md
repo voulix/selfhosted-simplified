@@ -38,7 +38,9 @@ volumes:
 
 ## register container to gitlab
 
-> sudo docker run --rm --network host --gpus=all -it -v gitlab-runner-config:/etc/gitlab-runner gitlab/gitlab-runner:latest register
+```yml
+sudo docker run --rm --network host --gpus=all -it -v gitlab-runner-config:/etc/gitlab-runner gitlab/gitlab-runner:latest register
+```
 
 >follow the instructions
 ```yml
