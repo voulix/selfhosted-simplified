@@ -41,10 +41,18 @@ volumes:
 > sudo docker run --rm --network host --gpus=all -it -v gitlab-runner-config:/etc/gitlab-runner gitlab/gitlab-runner:latest register
 
 >follow the instructions
->- instance url: https://yourdomainhere.com
->- token: glrt-123456ABCDEF7G
->- executer: docker
->- default docker image: **docker:dind** (docker in docker)
+```yml
+instance url: https://yourdomainhere.com
+```
+```yml
+token: glrt-123456ABCDEF7G
+```
+```yml
+executer: docker
+```
+```yml
+default docker image: **docker:dind** (docker in docker)
+```
 
 after that add
 
