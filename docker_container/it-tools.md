@@ -1,4 +1,37 @@
 >[it-tools-github](https://github.com/CorentinTh/it-tools)
+_________________________________________________________
+
+```yml
+cd /opt
+```
+
+>changes the folder to /opt
+
+```yml
+mkdir it-tools
+```
+
+>creates a folder called pihole
+
+```yml
+sudo chown youruser:youruser /opt/it-tools/
+```
+
+>changes the folder owner to a specific user (don't use root:root)
+
+```yml
+cd /opt/it-tools/
+```
+
+>changes the folder to /opt/pihole/
+
+```yml
+nano docker-compose.yaml
+```
+
+>creates a new file called docker-compose.yaml
+
+Copy the following into the file:
 
 ```yml
 version: '3.3'
@@ -25,3 +58,5 @@ services:
 #  proxy: # or use dev for testing purposes
 #    external: true
 ```
+
+Done! ヘ( ^o^)ノ＼(^_^ )
