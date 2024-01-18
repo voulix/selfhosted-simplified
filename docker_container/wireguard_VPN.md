@@ -1,22 +1,30 @@
-> cd /opt
+```yml
+cd /opt
+```
 
-changes the folder to /opt
+>changes the folder to /opt
 
-> mkdir wireguard-server
+```yml
+mkdir wireguard-server
+```
 
-creates a folder called wireguard-server
+>creates a folder called wireguard-server
 
-> sudo chown youruser:youruser /opt/wireguard-server
+```yml
+sudo chown youruser:youruser /opt/wireguard-server
+```
+>changes the folder owner to a specific user (don't use root:root)
 
-changes the folder owner to a specific user (don't use root:root)
-
+```yml
 > cd /opt/wireguard-server
+```
 
-changes the folder to /opt/wireguard-server
+>changes the folder to /opt/wireguard-server
+
 ```yml
 nano docker-compose.yaml
 ```
->creates a new file called docker-compose.yaml
+>creates a new file called docker-compose.yml
 
 ```yml
 version: "2.1"
