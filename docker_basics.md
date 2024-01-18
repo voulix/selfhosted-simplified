@@ -4,7 +4,7 @@ _________________________________________________________
 
 sudo docker run -dit --name apache-webserver -p 80:80 -v /opt/httpd/htdocs:/usr/local/apache2/htdocs/ httpd:2.4
 _________________________________________________________
-
+```yml
 version: "3"
 
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
@@ -27,4 +27,4 @@ services:
       - /opt/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
     restart: unless-stopped
-    _________________________________________________________
+```    
