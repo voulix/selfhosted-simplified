@@ -59,6 +59,7 @@ default docker image: **docker:dind** (docker in docker)
 after that add
 
 >network_mode = "host"
+
 >in config.toml
 
 
