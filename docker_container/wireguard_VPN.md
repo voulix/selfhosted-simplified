@@ -1,16 +1,16 @@
-cd /opt
+> cd /opt
 #changes the folder to /opt
 
-mkdir wireguard-server
+> mkdir wireguard-server
 #creates a folder called wireguard-server
 
-sudo chown youruser:youruser /opt/wireguard-server
+> sudo chown youruser:youruser /opt/wireguard-server
 #changes the folder owner to a specific user (don't use root:root)
 
-cd /opt/wireguard-server
+> cd /opt/wireguard-server
 #changes the folder to /opt/wireguard-server
 
-nano docker-compose.yaml
+> nano docker-compose.yaml
 #creates a new file called docker-compose.yaml (dont copy the ------ at the top and bottom)
 
 -------------------------------------------------
@@ -43,9 +43,9 @@ services:
 ```
 -----------------------------------------------------
 
-docker compose up -d
+> docker compose up -d
 #creates the docker container from the file we have just created **docker-compose.yaml**
 
-copy config peers to VPN client that uses wireguard
+> copy config peers to VPN client that uses wireguard
 
 Done! ヘ( ^o^)ノ＼(^_^ )
