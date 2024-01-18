@@ -16,8 +16,8 @@ changes the folder to /opt/wireguard-server
 
 > nano docker-compose.yaml
 
-creates a new file called docker-compose.yaml (dont copy the ------ at the top and bottom)
--------------------------------------------------
+creates a new file called docker-compose.yaml
+
 ```yml
 version: "2.1"
 services:
@@ -45,7 +45,6 @@ services:
       - net.ipv4.conf.all.src_valid_mark=1
     restart: always
 ```
------------------------------------------------------
 
 > docker compose up -d
 #creates the docker container from the file we have just created **docker-compose.yaml**
