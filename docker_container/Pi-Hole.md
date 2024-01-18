@@ -5,7 +5,7 @@ cd /opt
 >changes the folder to /opt
 
 ```yml
-mkdir pihole
+sudo mkdir pihole
 ```
 
 >creates a folder called pihole
