@@ -64,7 +64,7 @@ sudo docker compose up -d
 Paste the following in a browser of you choice: http://0.0.0.0:9001/admin/login.php (replace 0.0.0.0 with the ip of the system running Pi-Hole)
 
 Done! ヘ( ^o^)ノ＼(^_^ )
-
+_________________________________________________________
 
 # bonus
 
