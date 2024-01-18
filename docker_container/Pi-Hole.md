@@ -66,7 +66,7 @@ Paste the following in a browser of you choice: http://0.0.0.0:9001/admin/login.
 Done! ヘ( ^o^)ノ＼(^_^ )
 
 
-## bonus
+# bonus
 
 >to reduce db days saved (logging)
 
