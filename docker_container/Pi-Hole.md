@@ -21,7 +21,7 @@ nano docker-compose.yaml
 Copy the following without the lines at the top and bottom into the file:
 
 _________________________________________________________
-
+```yml
 version: "3"
 
 # More info at https://github.com/pi-hole/docker-pi-hole/ and https://docs.pi-hole.net/
@@ -44,7 +44,7 @@ services:
       - /opt/pihole/etc-dnsmasq.d:/etc/dnsmasq.d'
     #   https://github.com/pi-hole/docker-pi-hole#note-on-capabilities
     restart: unless-stopped
-
+```
 _________________________________________________________
 
 sudo docker compose up -d
