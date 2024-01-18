@@ -3,23 +3,33 @@
 >[nvidia-container-toolkit](https://github.com/NVIDIA/nvidia-container-toolkit)
 ## Installing InvokeAI
 
+```yml
 sudo docker run -it -p 9090:9090 -v /home/yourusernamehere/invokeai:/invokeai/ --name InvokeAI --gpus all local/invokeai bash
+```
 
 >runs the container in interactive mode with shell access. The download might take a few minutes
 
+```yml
 sudo docker stop InvokeAI
+```
 
 >stops the container 
 
+```yml
 cd /home/yourusernamehere/invokeai
+```
 
 >changes the folder to /home/yourusernamehere/invokeai
 
+```yml
 sudo nano invokeai.yaml -> set "Webserver host" to 0.0.0.0
+```
 
 >binds the IP from the InvokeAI webserver to your host
 
+```yml
 sudo docker start InvokeAI -i
+```
 
 >starts the container in interactive mode with shell access.
 
