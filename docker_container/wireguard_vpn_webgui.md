@@ -7,7 +7,7 @@ cd /opt
 >changes the folder to /opt
 
 ```yml
-mkdir wireguard-gui
+sudo mkdir wireguard-gui
 ```
 
 >creates a folder called wireguard-gui
