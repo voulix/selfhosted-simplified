@@ -20,14 +20,6 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -
 sudo docker stop portainer
 ```
 
-```yml
-sudo docker images -a
-```
-
-```yml
-sudo docker image rm imagenameorID -f
-```
-
 > Stops the container with the name portainer
 
 ```yml
@@ -35,6 +27,16 @@ sudo docker rm portainer
 ```
 
 > Deletes the container with the name portainer (the volume with the configs etc. is retained)
+
+```yml
+sudo docker images -a
+```
+
+>lists all docker iamges on the host
+
+```yml
+sudo docker image rm imagenameorID -f
+```
 
 ```yml
 sudo docker pull portainer/portainer-ce:latest
