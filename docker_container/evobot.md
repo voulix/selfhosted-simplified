@@ -55,3 +55,5 @@ sudo docker compose up -d
 ```
 
 >creates the docker container from the file we have just created **docker-compose.yaml**
+
+Done! ヘ( ^o^)ノ＼(^_^ )
