@@ -63,8 +63,14 @@ sudo docker compose up -d
 ```
 
 ## defaul login
-> mail: admin@example.com
-> pw: changeme
+
+```yml
+mail: admin@example.com
+```
+
+```yml
+pw: changeme
+```
 
 ### source:
 https://github.com/NginxProxyManager/nginx-proxy-manager
