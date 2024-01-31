@@ -1,6 +1,7 @@
 # nginxproxymanager-goaccess
 ## prerequisites: 
 >[nginxproxymanager](https://github.com/voulix/selfhosted-simplified/blob/main/docker_container/nginxproxymanager.md)
+## Installing nginxproxymanager-goaccess
 
 ```yml
 cd /opt
