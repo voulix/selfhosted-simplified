@@ -25,7 +25,7 @@ sudo docker images -a
 ```
 
 ```yml
-sudo docker image rm imagenameorID
+sudo docker image rm imagenameorID -f
 ```
 
 > Stops the container with the name portainer
