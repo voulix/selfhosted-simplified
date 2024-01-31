@@ -35,8 +35,10 @@ sudo docker images -a
 >lists all docker iamges on the host
 
 ```yml
-sudo docker image rm imagenameorID -f
+sudo docker image rm imagenameorID
 ```
+
+> deletes a docker image
 
 ```yml
 sudo docker pull portainer/portainer-ce:latest
