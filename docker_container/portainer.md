@@ -17,11 +17,11 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -
 > Delete old local Portainer Docker image in the Portainer web interface / or via docker cli if necessary
 
 ```yml
-sudo docker images -a
+sudo docker stop portainer
 ```
 
 ```yml
-sudo docker stop portainer
+sudo docker images -a
 ```
 
 ```yml
