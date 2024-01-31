@@ -5,7 +5,7 @@ sudo docker run -e "TOKEN=yourdiscordbottokenhere" eritislami/evobot
 ```
 
 Done! ヘ( ^o^)ノ＼(^_^ )
-
+---------------------------
 ## method 2 docker-compose
 
 ```yml
