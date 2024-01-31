@@ -62,7 +62,7 @@ services:
 sudo docker compose up -d
 ```
 
-## defaul login
+## default login
 
 ```yml
 mail: admin@example.com
