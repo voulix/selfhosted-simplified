@@ -48,7 +48,7 @@ services:
         image: eritislami/evobot
         environment:
             - TOKEN=yourdiscordbottokenhere
-```yml
+```
 
 ```yml
 sudo docker compose up -d
