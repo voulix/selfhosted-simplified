@@ -57,5 +57,9 @@ services:
        # - /path/to/host/custom:/opt/custom #optional, required if using log_type = CUSTOM
 ```
 
+```yml
+sudo docker compose up -d
+```
+
 ### source:
 https://github.com/xavier-hernandez/goaccess-for-nginxproxymanager
