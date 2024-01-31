@@ -1,10 +1,12 @@
+## method 1 docker run
+
 ```yml
 sudo docker run -e "TOKEN=yourdiscordbottokenhere" eritislami/evobot
 ```
 
 Done! ヘ( ^o^)ノ＼(^_^ )
 
-## method 2 with docker-compose
+## method 2 docker-compose
 
 ```yml
 cd /opt
