@@ -28,7 +28,7 @@ services:
         volumes:
             - ollama:/root/.ollama
         ports:
-            - 11434:11434
+            - 11434:11434          #needed to pull llm models
         container_name: ollama
         image: ollama/ollama
 volumes:
