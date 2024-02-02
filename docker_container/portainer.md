@@ -54,3 +54,7 @@ sudo docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -
 
 
 Done! ヘ( ^o^)ノ＼(^_^ )
+
+
+## tech tip
+> docker volumes are mounted by default to **/var/lib/docker/volumes**
