@@ -2,9 +2,9 @@
 
 - [docker_timezones](https://github.com/voulix/selfhosted-simplified/blob/main/docker_timezones)
 
-- to detach from a container without stopping it press ```[Ctrl + P and Ctrl + Q]``` together
-
 - access the shell from a container with ```sudo docker exec -it containername /bin/bash```
+
+- to detach from a container without stopping it press ```[Ctrl + P and Ctrl + Q]``` together
 
 - to list all docker images ```sudo docker image ls``` or ```sudo docker images```
 
