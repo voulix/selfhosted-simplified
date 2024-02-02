@@ -4,4 +4,4 @@
 
 - to detach from a container without stopping it press ```[Ctrl + P and Ctrl + Q]``` together
 
-- accessing the shell from a container with ```sudo docker exec -it containername /bin/bash```
+- access the shell from a container with ```sudo docker exec -it containername /bin/bash```
