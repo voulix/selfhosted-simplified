@@ -5,3 +5,7 @@
 - to detach from a container without stopping it press ```[Ctrl + P and Ctrl + Q]``` together
 
 - access the shell from a container with ```sudo docker exec -it containername /bin/bash```
+
+- to list all docker images ```sudo docker image ls``` or ```sudo docker images```
+
+- to delete an image ```sudo docker image rm imagename```
